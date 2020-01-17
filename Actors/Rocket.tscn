@@ -18,3 +18,14 @@ shape = SubResource( 1 )
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
 
+[node name="RightThruster" type="RayCast2D" parent="."]
+position = Vector2( 30, -30 )
+cast_to = Vector2( 10, 0 )
+
+[node name="LeftThruster" type="RayCast2D" parent="."]
+position = Vector2( -30, -30 )
+cast_to = Vector2( -10, 0 )
+
+[node name="BaseThrust" type="RayCast2D" parent="."]
+cast_to = Vector2( 0, -30 )
+
