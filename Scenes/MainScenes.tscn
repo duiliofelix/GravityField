@@ -22,4 +22,3 @@ position = Vector2( 224.651, -501.891 )
 
 [node name="GravityField5" parent="." instance=ExtResource( 2 )]
 position = Vector2( 650.06, -783.83 )
-
