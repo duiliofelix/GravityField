@@ -6,7 +6,20 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Rocket" parent="." instance=ExtResource( 1 )]
-position = Vector2( 78, 95 )
+position = Vector2( 358.591, 534.258 )
 
 [node name="GravityField" parent="." instance=ExtResource( 2 )]
-position = Vector2( 227.569, 356.317 )
+position = Vector2( 494.798, 197.65 )
+
+[node name="GravityField2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 214.221, -96.5598 )
+
+[node name="GravityField3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 651.894, -247.234 )
+
+[node name="GravityField4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 224.651, -501.891 )
+
+[node name="GravityField5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 650.06, -783.83 )
+
